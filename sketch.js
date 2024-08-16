@@ -66,7 +66,7 @@ function activationFunction(sum){
 }
 
 function drawDecisionBoundary() {
-  // wX * x + wY * y = 0
+  // wX * x + wY * y  + b = 0
   let x1 = -1;
   let y1 = -(perceptron.weights[0] / perceptron.weights[1]) * x1 - (perceptron.weights[2] / perceptron.weights[1]);  // Calculate y1 for x1 = -1  
   let x2 = 1;
